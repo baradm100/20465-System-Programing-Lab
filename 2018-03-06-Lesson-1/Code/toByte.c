@@ -20,7 +20,17 @@ int betterCountDigits(int n){
   return count;
 }
 
+int superBetterCountDigits(int n) {
+  int count = 1;
+  
+  /* Summing the number of digits in n  */
+  for(;n /= 10;)
+    count++;
+
+  return count;
+}
+
 int main() {
-  printf("%d", betterCountDigits(16));
+  printf("%d",  superBetterCountDigits(0));
   return 0;
 }

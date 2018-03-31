@@ -105,8 +105,9 @@ To output to the user we just need to use `printf`.
 > Both `printf` and `scanf` are included by `stdio.h`
 
 # Homework
-* [ ] Install Ubuntu 16.4 (from the university site).
-* [ ] Install Eclipse.
+* [x] Install Ubuntu 16.4 (from the university site).
+* [x] Install Eclipse.
+* [x] Install VS Code.
 * [ ] Maman 11.
 
 # TODO
