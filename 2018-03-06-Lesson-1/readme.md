@@ -112,4 +112,4 @@ To output to the user we just need to use `printf`.
 * [ ] Maman 11.
 
 # TODO
-Hint for maman 11: use `strchr`.
+Hint for Maman 11: use `strchr`.
