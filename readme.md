@@ -9,5 +9,5 @@ Have fun!
 # TODOs
 * [ ] Add content table to readme
 * [x] Fix typos
-* [ ] Tell evrey one about this repo.
+* [ ] Tell every one about this repository.
 * [ ] Get student user for GitHub

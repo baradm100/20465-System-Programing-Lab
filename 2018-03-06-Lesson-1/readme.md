@@ -54,7 +54,7 @@ To comment in ANSI standards we need to comment like this:
 /*
 This is a valid comment
 */
-// This is not a vaild comment
+// This is not a valid comment
 ```
 
 # How to write C
