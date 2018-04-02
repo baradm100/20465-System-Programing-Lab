@@ -5,25 +5,25 @@ Lesson 1
 # Setup for the course
 For this course we will use the following setup:
 * Ubuntu 16.2
-* Eclipse (recomended)
+* Eclipse (recommended)
 
 # How to compile
-When compilling run we only run with the following flags:
+When compile run we only run with the following flags:
 
 ```
 gcc -Wall -ansi -pedantic -lm file.c -o output
 ```
 
 ## Flags:
-* Wall - Warrnings all (show all warrnings).
+* Wall - Warnings all (show all warnings).
 * ansi - Using the ANSI standard.
-* pedantic - Being more pedantic about the code fromatting and writing.
-* l<paget-name> - Importing the relevant packegt.
+* pedantic - Being more pedantic about the code formatting and writing.
+* lpackage-name - Importing the relevant package.
 * o - output.
 
 ## Makefile
-Makefile is a file used by the command `make`, this file classefy what is the procces of compiling the files.
-We need this file for evrey Maman we send under the name "`makefile`".
+Makefile is a file used by the command `make`, this file class what is the process of compiling the files.
+We need this file for every Maman we send under the name "`makefile`".
 
 ### Format
 The format for the `makefile` is:
@@ -49,7 +49,7 @@ all: *.c
 # Comments
 Comment where needed, use common sense.
 
-To comment in ANSI standart we need to comment like this:
+To comment in ANSI standards we need to comment like this:
 ```c
 /*
 This is a valid comment
@@ -70,26 +70,27 @@ Most of the time we to add the following include to be able to print and scan da
 ## Main function
 We will need a function named `main`, this function will run when the file is loaded, the function will return an int,  success code (`0`) or an error code (`1`).
 
-For exmple:
+For example:
 ```c
 #include <stdio.h>
 int main() {
   printf("Hello world!");
   
-  return 0;
+  /* Exit code 0 - clean exit */
+  return 0; 
 }
 ``` 
 
 # Input and output files
 Sometimes we want to get input from user (using keyboard) but for the mamans we need to supply sample inputs and expected outputs.
 
-To do so we need to create a file for inputs (`inputs.txt`) and run the file while piping the inputs to it, for exmple:
+To do so we need to create a file for inputs (`inputs.txt`) and run the file while piping the inputs to it, for example:
 
 ```
 $ file < inputs.txt
 ```
 
-For out put we can pipe the output of the program to a file, for exmple:
+For out put we can pipe the output of the program to a file, for example:
 ```
 $ file > output.txt
 ```

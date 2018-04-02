@@ -8,4 +8,6 @@ Have fun!
 
 # TODOs
 * [ ] Add content table to readme
-* [ ] Fix typos
+* [x] Fix typos
+* [ ] Tell evrey one about this repo.
+* [ ] Get student user for GitHub
