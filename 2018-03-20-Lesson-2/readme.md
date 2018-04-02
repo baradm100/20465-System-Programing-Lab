@@ -29,11 +29,47 @@ Array in C is just a pointer to allocated memory.
 # Input methods
 > TODO: Do this later at home
 ## getchar
-> TODO: finish
+Get input from the user and return one char.
+
+```c
+char c;
+c = getchar();
+putchar(c);
+
+```
+
 ## fgets
-> TODO: finish
+Get a string from the user (or file) at the max size that was set, the string is terminated with `\0`.
+If we sent 80 as the max size, we will get a string with 79 chars and the finale char is `\0`.
+> Warring! set the size of the array with extra space to include the '\0'
+
 ## scanf
+Getting the input from the user (or file), strong method.
+Can return string, char, int, float, etc.
+Just use the correct [format](#format).
+
+# Output methods
 > TODO: finish
+## putchar
+Puts only a char, can resive only a char or an int (that represent a char in ASCI):
+
+```c
+putchar('a');
+putchar('\n');
+putchar(121);
+```
+## printf
+> TODO
+
+# Format
+| Specifier | Output
+| --------- | --------
+| c         | Character
+| d         | Singed decimal integer
+| f         | Decimal floating point
+| s         | String of characters
+| p         | Pointer address
+
 
 # Tips
 * No need for `#include` in tests when only writing the function.
