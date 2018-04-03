@@ -80,6 +80,6 @@ scanf("%80s");
 * In C `0` is considered `false` in boolean statements (as `null` and `undefined` in javascript or ruby).
 
 ## Homework
-* [ ] Write a function that get a string and a char and return the number of occurrences (no matter if upper or lower case).
+* [x] Write a function that get a string and a char and return the number of occurrences (no matter if upper or lower case).
 * [x] Fix typos.
 * [x] Add input and output methods.
