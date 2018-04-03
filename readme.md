@@ -13,5 +13,5 @@ Have fun!
 # TODOs
 * [x] Add content table to readme
 * [x] Fix typos
-* [ ] Tell every one about this repository.
-* [ ] Get student user for GitHub
+* [x] Tell every one about this repository.
+* [ ] Get a student user for GitHub

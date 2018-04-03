@@ -5,7 +5,7 @@ all:
 		gcc -Wall -ansi -pedantic "$$i" -o "$${i}_output";\
 		echo "-------------- Done $$i";\
 	done
-try:
+list:
 	for i in *.c; do\
 		echo "$$i";\
 	done
