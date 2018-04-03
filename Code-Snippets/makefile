@@ -1,8 +1,9 @@
 all:
-	echo "Compailling all the *.c files...";\
+	echo "Compiling all the *.c files...";\
 	for i in *.c; do\
+		echo "------- Compiling $$i:";\
 		gcc -Wall -ansi -pedantic "$$i" -o "$${i}_output";\
-		echo "$$i";\
+		echo "-------------- Done $$i";\
 	done
 try:
 	for i in *.c; do\

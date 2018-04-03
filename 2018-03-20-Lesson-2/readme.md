@@ -27,7 +27,6 @@ printf("%s", str + 1); /* => "ello world!" */
 Array in C is just a pointer to allocated memory.
 
 # Input methods
-> TODO: Do this later at home
 ## getchar
 Get input from the user and return one char.
 
@@ -49,7 +48,6 @@ Can return string, char, int, float, etc.
 Just use the correct [format](#format).
 
 # Output methods
-> TODO: finish
 ## putchar
 Puts only a char, can resive only a char or an int (that represent a char in ASCI):
 
@@ -59,7 +57,8 @@ putchar('\n');
 putchar(121);
 ```
 ## printf
-> TODO
+Printing data to the user, strong method.
+Just use the correct [format](#format).
 
 # Format
 | Specifier | Output
@@ -70,6 +69,11 @@ putchar(121);
 | s         | String of characters
 | p         | Pointer address
 
+You can limit the output/input by adding a number in front of the specifier, for example:
+```c
+/* Scanning only 80 string of characters */
+scanf("%80s");
+```
 
 # Tips
 * No need for `#include` in tests when only writing the function.
@@ -77,4 +81,5 @@ putchar(121);
 
 ## Homework
 * [ ] Write a function that get a string and a char and return the number of occurrences (no matter if upper or lower case).
-* [ ] Fix typos
+* [x] Fix typos.
+* [x] Add input and output methods.
