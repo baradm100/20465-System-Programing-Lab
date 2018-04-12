@@ -1,7 +1,7 @@
 Lesson 3
 ===
 
-> TODO
+> Fun with pointers
 
 ## Pointers
 
