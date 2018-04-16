@@ -1,5 +1,5 @@
 all:
-	gcc -Wall -ansi -pedantic string.c -o string
+	gcc -Wall -ansi -pedantic string.c -o string.o
 
 clean:
-	rm string
+	rm string.o
